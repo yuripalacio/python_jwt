@@ -6,6 +6,9 @@ def test_encrypt():
 
     hashed_password = password_handler.encrypt_password(password=my_password)
 
-    password_checked = password_handler.check_password(password=my_password, hashed_password=hashed_password)
+    password_checked = password_handler.check_password(
+        password=my_password,
+        hashed_password=hashed_password
+    )
 
     assert password_checked
