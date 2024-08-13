@@ -1,0 +1,9 @@
+{
+  "python.linting.enable": false,
+  "python.linting.pylintEnable": false,
+  "flies.exclude": {
+    "**/*.pyc": {"when": "${basename}.py"},
+    "**/__pycache__": true,
+    "**/*.pytest_cache": true,
+  }
+}
